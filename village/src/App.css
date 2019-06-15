@@ -1,3 +1,34 @@
 .App {
   text-align: center;
 }
+
+.navBar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.navBar h1 {
+  margin-right: auto;
+  margin-left: 5%;
+}
+
+.navBar .navLinks {
+  margin-left: auto;
+  margin-right: 5%;
+  width: 30%;
+}
+
+.navBar a {
+  width: 30%;
+  color: teal;
+  margin: 0 5%;
+  text-decoration: none;
+  font-size: 2rem;
+  padding: 1% 2%;
+  border-radius: 5px;
+}
+
+.active {
+  background-color: lightgray;
+}
